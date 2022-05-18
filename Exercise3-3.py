@@ -1,0 +1,12 @@
+import random
+n = random.randint(0,9)
+a = random.choice("abcdefghijklmnopqrstuvwsyz")
+A = random.choice('ABCDEFGHIJKLMNOPQRSTUVWSYZ')
+n_1 = random.randint(0,9)
+a_1 = random.choice("abcdefghijklmnopqrstuvwsyz")
+A_1 = random.choice('ABCDEFGHIJKLMNOPQRSTUVWSYZ')
+print(f"Your Password is :{n}{a}{A}{n_1}{a_1}{A_1}")
+#print("Your Password is :",n,a,A)
+#print(random.choice("seq"))
+#d = random.choice("seq")
+#print(a,A)
